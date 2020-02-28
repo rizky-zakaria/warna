@@ -1,9 +1,11 @@
 <?php
-defined('BASEPATH') or exit('No direct script access allowed');
 
-use chriskacerguis\RestServer\RestController;
+use Restserver\Libraries\REST_Controller;
 
-class Auth extends RestController
+require APPPATH . 'libraries/REST_Controller.php';
+require APPPATH . 'libraries/Format.php';
+
+class Auth extends REST_Controllerller
 {
 
     function __construct()
