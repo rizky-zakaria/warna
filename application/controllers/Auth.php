@@ -5,7 +5,7 @@ use Restserver\Libraries\REST_Controller;
 require APPPATH . 'libraries/REST_Controller.php';
 require APPPATH . 'libraries/Format.php';
 
-class Auth extends REST_Controllerller
+class Auth extends REST_Controller
 {
 
     function __construct()
