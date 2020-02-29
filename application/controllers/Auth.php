@@ -48,7 +48,7 @@ class Auth extends REST_Controller
                 $this->response([
                     'status' => FALSE,
                     'message' => 'No users were found'
-                ], REST_Controller::HTTP_NOT_FOUND); // NOT_FOUND (404) being the HTTP response code
+                ], REST_Controller::HTTP_NOT_FOUND); // NOT_FOUND (404) being the HTTP response 
             }
         }
 
