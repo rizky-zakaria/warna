@@ -25,7 +25,7 @@ class Auth extends REST_Controller
         $this->methods['users_delete']['limit'] = 50; // 50 requests per hour per user/key
     }
 
-    public function users_get()
+    public function users()
     {
         // Users from a data store e.g. database
         $users = [
